@@ -1,0 +1,109 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU1 MENU DISCARDABLE 
+BEGIN
+    POPUP "位图显示特效"
+    BEGIN
+        POPUP "交错"
+        BEGIN
+            MENUITEM "水平交错",                    IDC_MENU_STAGGEREDHORIZONTAL
+
+            MENUITEM "垂直交错",                    IDC_MENU_STAGGEREDVERTICAL
+
+        END
+        POPUP "百叶窗"
+        BEGIN
+            MENUITEM "水平百叶窗",                  IDC_MENU_JALOUSIEHORIZONTAL
+
+            MENUITEM "垂直百叶窗",                  IDC_MENU_JALOUSIEVERTICAL
+
+        END
+        MENUITEM "随机积木",                    IDC_MENU_RANDOMBLOCK
+        POPUP "飞入"
+        BEGIN
+            MENUITEM "从上往下",                    IDC_MENU_FLY_TOPTOBOTTOM
+            MENUITEM "从下往上",                    IDC_MENU_FLY_BOTTOMTOTOP
+            MENUITEM "从左往右",                    IDC_MENU_FLY_LEFTTORIGHT
+            MENUITEM "从右往左",                    IDC_MENU_FLY_RIGHTTOLEFT
+        END
+        POPUP "伸展"
+        BEGIN
+            MENUITEM "从上往下",                    IDC_MENU_FADE_TOPTOBOTTOM
+
+            MENUITEM "从下往上",                    IDC_MENU_FADE_BOTTOMTOTOP
+
+            MENUITEM "从左往右",                    IDC_MENU_FADE_LEFTTORIGHT
+
+            MENUITEM "从右往左",                    IDC_MENU_FADE_RIGHTTOLEFT
+
+        END
+    END
+END
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
